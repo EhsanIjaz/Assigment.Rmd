@@ -1,0 +1,24 @@
+---
+title: "Assigment Of Course 9"
+author: "Muhammad Ehsan Ijaz"
+date: "8/19/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## August 20, 2019
+
+
+
+```{r, eval=FALSE}
+library(leaflet)
+
+ my_map <- leaflet() %>% addTiles() 
+ my_map <- my_map %>% addMarkers(lat=-26.158632, lng= 27.903283, popup="My Laboratory")
+my_map
+
+```
+
